@@ -1,0 +1,139 @@
+@font-face {
+    font-family: 'Roboto';
+    src: url("./fonts/Roboto-Regular.ttf");
+    font-weight: normal;
+}
+@font-face {
+    font-family: 'Roboto';
+    src: url("./fonts/Roboto-Bold.ttf");
+    font-weight: bold;
+}
+
+*{
+    font-family: "Roboto";
+    /*box-sizing: border-box;*/
+}
+
+page{
+    display: flex;
+    align-items: center;
+}
+
+/*--------------------------Section 1--------------------------*/
+
+.Section-1{
+    background-color: #1f2937;
+    color: white;
+    flex: 3;
+    padding: 20px 8%;
+}
+
+div ul{
+    flex: 1;
+    text-align: right;
+}
+
+div ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 0 20px;
+}
+
+h1{
+    font-size: 24px;
+    color:#f9faf8;
+}
+
+h2{
+    font-size: 48px;
+    font-weight: 800;
+    color: #f9faf8;
+}
+
+div ul,p {
+    font-size: 18px;
+    color:#E5E7EB;
+}
+
+.HomeImage{
+    width: 500px;
+    height: 300px;
+}
+
+.firstButton{
+    border-radius: 5px;
+    background-color: #3882f6;
+    color: white;
+    border-color: #3882f6;
+}
+
+/*--------------------------Section 2--------------------------*/
+
+.Section-2{
+    flex: 3;
+    color: black;
+    padding: 20px 8%;
+}
+
+h2{
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 800;
+}
+
+.ImageList img{
+    border: 5px solid;
+    border-color: black;
+    border-radius: 5px;
+    width: 100px;
+    height: 100px;
+}
+
+.ImageList{
+    display: flex;
+    gap: 5px;
+}
+
+/*--------------------------Section 3--------------------------*/
+
+.Section-3{
+    flex: 3;
+    padding: 40px 20%;
+    background-color: #E5E7EB;
+}
+
+.Normal{
+    color:#1f2937 ;
+    font-weight: bold;
+}
+
+p.Italics{
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+} 
+
+/*--------------------------Section 4--------------------------*/
+
+.Section-4{
+    flex: 3;
+    color: white;
+    padding: 20px 8%;
+    background-color: #3882f6;
+}
+
+.Section-4 button{
+    background-color: #3882f6;
+    border-color: white;
+    border-radius: 5px;
+    color: white;
+}
+
+/*--------------------------Footer--------------------------*/
+
+.End{
+    flex: 6;
+    background-color: #1f2937;
+    text-align: center;
+    color: white;
+}
