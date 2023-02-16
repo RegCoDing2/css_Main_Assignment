@@ -28,18 +28,18 @@ page{
     padding: 20px 8%;
 }
 
-div ul{
+ul{
     flex: 1;
     text-align: right;
 }
 
-div ul li{
+ul li{
     display: inline-block;
     list-style: none;
     margin: 0 20px;
 }
 
-h1{
+header{
     font-size: 24px;
     color:#f9faf8;
 }
@@ -50,7 +50,7 @@ h2{
     color: #f9faf8;
 }
 
-div ul,p {
+section ul,p {
     font-size: 18px;
     color:#E5E7EB;
 }
@@ -131,7 +131,7 @@ p.Italics{
 
 /*--------------------------Footer--------------------------*/
 
-.End{
+footer{
     flex: 6;
     background-color: #1f2937;
     text-align: center;
